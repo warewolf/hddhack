@@ -19,6 +19,7 @@ Display bytes:
 CON1 pins
 
 (I apologize, the colors here are colors for wires I have soldered, heh)
+```
 
 bit                   1111111000000000
 bit                   6543210987654321
@@ -45,6 +46,7 @@ yellow  = 06 = c902 = 0000000100000000 normally low
 <<>>    = 12 = 3.3v = 3.3v normally high
 orange  = 10 = nothing, floating pin w/ optional resistor to ground
 <<>>    = 08 = NC
+```
 
 
 6745 pins
