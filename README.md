@@ -48,7 +48,7 @@ orange  = 10 = nothing, floating pin w/ optional resistor to ground
 <<>>    = 08 = NC
 ```
 
-
+```
 6745 pins
 01 - TP P3 to DNP resistor to ground
 02 - TP P4 to DNP resistor to ground
@@ -66,3 +66,4 @@ orange  = 10 = nothing, floating pin w/ optional resistor to ground
 34 - SMOOTH motor ?
 35 - via to unlabeled test point
 36 - cap to ground + via to unlabeled test point
+```
