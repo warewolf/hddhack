@@ -21,7 +21,7 @@ CON1 pins
 (I apologize, the colors here are colors for wires I have soldered, heh)
 
 
-=== 88i6745 to CON1 to 0x1C00A846 io port value to bitflip to high/low ===
+### 88i6745 to CON1 to 0x1C00A846 io port value to bitflip to high/low ###
 
 
 normal value for 0x1C00A846 = c802 = 1100100000000010
