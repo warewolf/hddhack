@@ -21,11 +21,12 @@ CON1 pins
 (I apologize, the colors here are colors for wires I have soldered, heh)
 
 
-88i6745 to CON1 to 0x1C00A846 io port value to bitflip to high/low
+=== 88i6745 to CON1 to 0x1C00A846 io port value to bitflip to high/low ===
 
-normal = c802 = 1100100000000010
 
-| Test Wire | CON1 pin | 0x1C00A846 value | bit              | status        | 88i6745 pin 
+normal value for 0x1C00A846 = c802 = 1100100000000010
+
+| Test Wire | CON1 pin | 0x1C00A846 value | bit flipped      | status        | 88i6745 pin 
 | --------- | -------- | ---------------- | ---------------- | ------------- | --------
 | white     | 30       | ????		  | 0000000001000000 | normally ???  | 6745 pin 42 (io port 0x1C00A84E, not 0x1C00A846)
 | yellow    | 28       | 0xc800		  | 0000000000000010 | normally HIGH | 6745 pin 43
